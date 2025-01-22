@@ -9,7 +9,8 @@
         "laravel/framework": "^11.9",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "league/csv": "^9.20"
+        "league/csv": "^9.20",
+        "symfony/process": "^7.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

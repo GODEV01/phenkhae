@@ -15,6 +15,7 @@ const SignIn: React.FC = () => {
     const errorMessage: string | null = await login(email, password);
     if (errorMessage !== null) {
       setError(errorMessage);
+      console.error(errorMessage);
     } else {
       navigate('/');
     }
